@@ -1,0 +1,51 @@
+
+.title-own{
+    background-color: rgba(255, 179, 0, 0.894);
+    font-size: 20px; 
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+
+}
+
+.desc-own{
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    
+}
+.tech-title-own{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    font-size: 20px; 
+}
+.techstack-own{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 60px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+/* // css for contact element */
+/* .contact-ele-own{
+   
+
+} */
