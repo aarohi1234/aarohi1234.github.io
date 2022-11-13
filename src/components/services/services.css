@@ -1,0 +1,165 @@
+.services__container {
+    grid-template-columns: repeat(4,1fr);
+    column-gap:1.2rem;
+    align-items: center;
+    
+}
+#project{
+    margin-top: -100px;
+}
+.services__card {
+    width:300px;
+    text-align: center;
+    padding:0.7rem;
+    border-radius:var(--border-radius);
+    background-color:var(--container-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.services__card:nth-child(1){
+    background-color: var(--first-color);
+    box-shadow:0px 5px 20px 0px rgb(108,108,229/50%);
+    color: white;
+    
+
+}
+.services__card:nth-child(2){
+    background-color:var(--first-color);
+    box-shadow:0px 5px 20px 0px rgb(239, 222, 87/50%);
+    color: white;
+
+}
+.services__card:nth-child(3){
+    background-color:var(--first-color);
+    box-shadow:0px 5px 20px 0px rgb(249, 124, 139 /50%);
+    color: white;
+
+}
+.services__card:nth-child(4){
+    background-color:var(--first-color);
+    box-shadow:0px 5px 20px 0px rgb(249, 124, 139 /50%);
+    color: white;
+
+}
+.services__img {
+    margin-bottom :1.25rem;
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.services__github-a {
+    margin-top: 20px;
+
+    width:100px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:50px;
+    border-radius: 20px;
+}
+.services__netlify-b {
+    width:100px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:50px;
+    border-radius: 20px;
+    
+}
+.section__title {
+    font-size: 50px;
+}
+.services__github-a:hover {
+    width:110px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:60px;
+    border-radius: 20px;
+   
+}
+
+.services__netlify-b:hover {
+    width:110px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:60px;
+    border-radius: 20px;
+   
+}
+
+.fa-gitgit{
+   font-size: 2rem;
+   color: bisque;
+   padding-bottom: 20px;
+}
+.fa-globe{
+    font-size: 2rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: bisque;
+}
+.services__card:hover {
+    transform: translateY(-15px);
+    background-color: #7a41c464;
+    color: black;
+}
+.fa-gitgit:hover{
+    font-size: 2rem;
+    
+    color: black;
+ }
+ .fa-globe:hover{
+     font-size: 2rem;
+     padding-left: 50px;
+     padding-top: 30px;
+    
+     color: black;
+ }
+ .services__description{
+    margin-top:20px;
+    font-weight: 500;
+ }
+ .ptagabout{
+    width:90%;
+    margin: auto;
+   
+ }
+ #project{
+    margin-bottom: 20px;
+    margin-top: -90px;
+ }
+ 
+ 
+@media screen and (max-width: 769px) {
+    .services__container {
+        grid-template-columns: repeat(1,1fr);
+        gap:1.875rem;
+        align-items: center;
+        
+    }
+    .services__card {
+        width:500px;
+        text-align: center;
+        padding:0.7rem;
+        border-radius:var(--border-radius);
+        background-color:var(--container-color);
+        transition: all 0.5s ease-in-out;
+    }
+  }
+  @media screen and (max-width: 429px) {
+    .services__container {
+        grid-template-columns: repeat(1,2fr);
+        gap:1.875rem;
+        align-items: center;
+        
+    }
+    .services__card {
+        width:300px;
+        text-align: center;
+        padding:0.7rem;
+        border-radius:var(--border-radius);
+        background-color:var(--container-color);
+        transition: all 0.5s ease-in-out;
+    }
+  }
+  

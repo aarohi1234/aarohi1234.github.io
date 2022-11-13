@@ -1,24 +1,29 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Skills from "./components/Skills";
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import Projects from "./components/Projects";
-import SocialLinks from "./components/SocialLinks";
-// import Footer from "./components/Footer";
+import './App.css';
+import Sidebar from './components/sidebar/Sidebar';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Services from './components/services/Services';
+import Resume from './components/resume/Resume';
+import Skills from './components/skills/Skills';
+import Contact from './components/contact/Contact';
+import Git from './components/git/Git';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-
-      <SocialLinks />
-      {/* <Footer/> */}
+    <div className="App">
+      <Sidebar />
+      <main>
+        
+        <Home/>
+        <About/>
+        <Resume />
+        <Services/>
+        <Skills />       
+        <Git />
+        <Contact />
+        
+        
+      </main>
     </div>
   );
 }

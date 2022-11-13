@@ -1,13 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*---goggle fonts---*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/*---variable css ---*/
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  /*=color=*/
+  --first-color: #80618c;
+  --title-color:  hsl(220, 12%, 5%);
+  --text-color:rgb(67, 66, 66);
+  --body-color:rgb(255, 254, 255);
+  --container-color:#fff;
 
-@layer base {
-  html {
-    font-family: 'Raleway', sans-serif;
+  /*--font size*/
+  --body-font:"Rubik" ,sans-serif;
+  --h1-font-size: 4.00rem;
+  
+  --h2-font-size: 2.75rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  /*font-weight*/
+  --font-medium:500;
+  --font-semibold:600;
+  --font-bold:700;
+
+  --shadow:0px 5px 20px 0px rgb(69 67 97 /10%);
+
+  --border-radius:20px;
+
+
+}
+.nav__link:hover{
+  color: #823ae0;
+}
+
+/*bas*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+ 
+  background-repeat: no-repeat;
+}
+html {
+  scroll-behavior: smooth;
+}  
+body,
+button,
+input,
+textarea {
+font-family: var(--body-font);
+font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  line-height:1.7;
+  color: var(--text-color);
+}
+
+h1, h2 h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semibold);
+  line-height :1.2;
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor :pointer;
+  border:none;
+  outline:none;
+ 
+}
+img {
+  max-width: 100%;
+  height:auto;
+  vertical-align :middle;
+
+}
+
+/*=resuable css clas*/
+.container {
+  max-width: 100%;
+  padding-left: 150px;
+  padding-right: 15px;
+  margin:0 auto;
+
+}
+
+.grid {
+  display:grid;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section__title{
+  font-size: var(--h1-font-size);
+  margin-left:0.857rem;
+  font-weight: var(--font-bold);
+  position:relative;
+  margin-bottom:3.75rem;
+
+}
+.section__title::before{
+content:"";
+height: 2.25rem;
+width:2.25rem;
+position:absolute;
+left:-0.875rem;
+top:-00.875rem;
+}
+
+.btn{
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow:0 0 1px rgb(0 0 0 /0%);
+  border:1px solid transparent;
+  color: #fff;
+display: inline-block;
+background-color: var(--first-color);
+font-weight:var(--font-bold);
+margin-bottom: 120px;
+margin-top: 40px;
+}
+@keyframes button-push {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn :hover {
+
+  animation: button-push 0.3s liner 1;
+}
+
+/* RESPONSIVE TYPOGRAPHY */
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.815rem;
+  --smaller-font-size: 0.75rem;
+
+  }
+}
+@media screen and (max-width: 424px) {
+  :root{
+    margin: auto;
   }
 }
