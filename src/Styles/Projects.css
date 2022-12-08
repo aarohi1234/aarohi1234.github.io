@@ -1,0 +1,289 @@
+.pro {
+  background-color: black;
+  /* background-color: blue; */
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.commonContainer {
+  height: 300px;
+  width: 80%;
+  border: 1px solid black;
+  background-color: #80618c;;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  padding: 0px;
+  transition: 0.5s ease-in-out;
+}
+.headingPro {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 6px;
+}
+.linePro {
+  width: 200px;
+  margin: auto;
+  margin-bottom: 35px;
+  border: 2px solid  #80618c;;
+}
+
+.commonPic {
+  width: 521px;
+
+  margin-left: 0px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.commonContainer:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.03);
+}
+.projectDetails {
+  height: auto;
+  width: auto;
+  border: 0px solid  #80618c;;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.projectHeading {
+  color: black;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.atag {
+  text-decoration: none;
+  color: black;
+}
+.projectPara {
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  border: 0px solid blue;
+  width: 90%;
+}
+.teckStack {
+  color: white;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.teckSpan {
+  color: black;
+  margin-top: 15px;
+}
+.linkingBtn {
+  border: 0px solid blue;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  /* margin-bottom: 20px; */
+}
+
+.live {
+  border: none;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 10px 14px;
+}
+.live:hover {
+  border: none;
+  color: black;
+  background-color: paleturquoise;
+  border: 1px solid white;
+  cursor: pointer;
+  /* padding: 11px 15px; */
+}
+@media (min-width: 1025px) and (max-width: 1250px) {
+  .commonContainer {
+    width: 90%;
+    /* background-color: white; */
+  }
+  .commonPic {
+    width: 500px;
+  }
+  .linkingBtn {
+    margin-top: 20px;
+  }
+}
+/* Media Query for Tablets Ipads portrait mode completed */
+@media (min-width: 768px) and (max-width: 1026px) {
+  .commonContainer {
+    /* background-color: red; */
+    height: 280px;
+    width: 85%;
+  }
+  .commonPic {
+    width: 400px;
+    height: 275px;
+  }
+  .projectDetails {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .projectHeading {
+    margin-top: 0px;
+  }
+  .projectPara {
+    color: white;
+    font-size: 17px;
+    width: 90%;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-top: 0px;
+  }
+  .teckStack {
+    color: white;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 905px) {
+  .commonPic {
+    width: 360px;
+  }
+  .projectHeading {
+    margin-bottom: 10px;
+  }
+  .linkingBtn {
+    margin-top: 20px;
+  }
+}
+/* Media Query for low resolution  Tablets, Ipads completed */
+@media (min-width: 481px) and (max-width: 767px) {
+  .pro {
+    background-color: black;
+  }
+  .linePro {
+    border-color: #80618c;
+  }
+  .commonContainer {
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    background-color: #80618c;
+  }
+  .commonPic {
+    width: 100%;
+    height: 275px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+  }
+  .projectDetails {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .projectHeading {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+  }
+  .projectPara {
+    font-size: 17px;
+    width: 85%;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-top: 0px;
+    text-align: center;
+    margin: auto;
+  }
+  .teckStack {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 0px solid white;
+  }
+  .linkingBtn {
+    margin-top: 10px;
+  }
+  .live {
+    background-color: white;
+    border-color: white;
+  }
+  .atag:hover {
+    color: #bc4123;
+  }
+  .live:hover {
+    border-color: #bc4123;
+  }
+  .teckSpan {
+    color: #bc4123;
+  }
+}
+/* mobile */
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .pro {
+    background-color: #a52a2a;
+  }
+  .commonContainer {
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    background-color: palevioletred;
+  }
+  .commonPic {
+    width: 100%;
+    height: 190px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+  }
+  .projectDetails {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .projectHeading {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .projectPara {
+    font-size: 17px;
+    width: 85%;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-top: 0px;
+    text-align: center;
+    margin: auto;
+  }
+  .teckStack {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 0px solid white;
+    margin-top: 0px;
+  }
+  .linkingBtn {
+    margin-top: 10px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .live:hover {
+    background-color: #800000;
+  }
+}

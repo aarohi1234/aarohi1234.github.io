@@ -1,29 +1,22 @@
-import './App.css';
-import Sidebar from './components/sidebar/Sidebar';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Services from './components/services/Services';
-import Resume from './components/resume/Resume';
-import Skills from './components/skills/Skills';
-import Contact from './components/contact/Contact';
-import Git from './components/git/Git';
+import "./App.css";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import About from "./Components/About";
+import Teck from "./Components/Teck";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Statistics from "./Components/Statistics";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <main>
-        
-        <Home/>
-        <About/>
-        <Resume />
-        <Services/>
-        <Skills />       
-        <Git />
-        <Contact />
-        
-        
-      </main>
+      <Navbar />
+      <Home />
+      <About />
+      <Teck />
+      <Projects />
+      <Statistics />
+      <Contact />
     </div>
   );
 }

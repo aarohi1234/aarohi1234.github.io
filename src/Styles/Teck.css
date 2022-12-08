@@ -1,0 +1,133 @@
+#teck {
+  background-color: white;
+  height: auto;
+  width: auto;
+  border: 0px solid red;
+  padding-top: 50px;
+}
+
+.headingTeck {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+
+  margin-bottom: 6px;
+}
+.lineTeck {
+  width: 300px;
+  margin: auto;
+  margin-bottom: 25px;
+  border: 1px solid black;
+}
+
+.iconsContainer {
+  height: auto;
+  width: 60%;
+  border: 0px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.box {
+  background-color:  #80618c;;
+  display: block;
+  padding: 8px 0px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  transition: all 0.7s ease-in-out;
+}
+.box:hover {
+  background-color: #291b50;
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+.title {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+
+.icon {
+  width: 70px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media screen and (max-width: 1024px) {
+  .iconsContainer {
+    width: 85%;
+  }
+  .headingTeck {
+    font-size: 35px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media screen and (max-width: 767px) {
+  #teck {
+    background-color: white;
+  }
+  .iconsContainer {
+    width: 85%;
+    /* background-color: purple; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  .box {
+    background-color: #80618c;
+  }
+  .headingTeck {
+    font-size: 30px;
+  }
+  .lineTeck {
+    margin-bottom: 15px;
+  }
+  .icon {
+    width: 60px;
+  }
+}
+/* mobile */
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  #teck {
+    background-color: #800000;
+  }
+  .iconsContainer {
+    /* background-color: purple; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .iconBox {
+    padding-top: 0px;
+  }
+  .box {
+    background-color: #a52a2a;
+  }
+  .box:hover {
+    background-color: #882673;
+    border-radius: 5px;
+  }
+  .headingTeck {
+    font-size: 30px;
+    width: 65%;
+  }
+  .lineTeck {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  .icon {
+    width: 55px;
+  }
+}
