@@ -21,7 +21,7 @@ export default function Home() {
       <div className="headingContainer">
         <p>Hey I'm,</p>
         <h2>Nidhi Kumari</h2>
-        <h1>Full Stack Web Developer.</h1>
+        <h1> I Am Full Stack Web Developer.</h1>
         <button onClick={onButtonClick} className="resumeBtn">
           Resume{" "}
           <BiDownload
@@ -34,7 +34,7 @@ export default function Home() {
         </button>
       </div>
       <div className="profileContainer">
-        <img className="profilePic" src={profilePic} alt="Hero Pic" />
+        <img className="profilePic" src={profilePic} alt="nidhi" />
       </div>
     </div>
   );

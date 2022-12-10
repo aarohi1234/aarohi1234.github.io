@@ -142,9 +142,7 @@
     margin-left: 20px;
     font-size: 15px;
   }
-  .projectHeading {
-    margin-top: 0px;
-  }
+ 
   .projectPara {
     color: white;
     font-size: 17px;
@@ -168,6 +166,7 @@
   .linkingBtn {
     margin-top: 20px;
   }
+  
 }
 /* Media Query for low resolution  Tablets, Ipads completed */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -222,28 +221,20 @@
     background-color: white;
     border-color: white;
   }
-  .atag:hover {
-    color: #bc4123;
-  }
-  .live:hover {
-    border-color: #bc4123;
-  }
-  .teckSpan {
-    color: #bc4123;
-  }
+  
 }
 /* mobile */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .pro {
-    background-color: #a52a2a;
+    background-color: black;
   }
   .commonContainer {
     height: auto;
     display: block;
     box-sizing: border-box;
     padding-bottom: 20px;
-    background-color: palevioletred;
+    background-color: #80618c;
   }
   .commonPic {
     width: 100%;
@@ -284,6 +275,6 @@
     gap: 10px;
   }
   .live:hover {
-    background-color: #800000;
+    background-color: #747171;
   }
 }

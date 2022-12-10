@@ -42,7 +42,7 @@
   margin-bottom: 30px;
 }
 .commonCBox {
-  /* height: 50px; */
+ 
   width: auto;
 
   border: 0px solid blue;
@@ -123,7 +123,7 @@ textArea {
     background-color:black;
   }
   .cBox {
-    /* width: 80%; */
+
     border: 0px solid red;
 
     display: grid;
@@ -184,7 +184,7 @@ textArea {
     width: 90%;
   }
   .commonCBox p {
-    /* width: 70%; */
+
     text-align: start;
     overflow-wrap: break-word;
   }

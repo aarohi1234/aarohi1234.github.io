@@ -9,7 +9,7 @@
 .headingContainer {
   height: auto;
   width: auto;
-  border: 0px solid blue;
+  
   margin: auto;
   margin-left: 15%;
 }
@@ -26,7 +26,7 @@
   letter-spacing: 1.5px;
   font-weight: 500;
   margin-bottom: 10px;
-  /* margin-top: -10px;  */
+ 
 }
 .headingContainer h1 {
   color:  #80618c;;
@@ -38,7 +38,7 @@
   border: none;
   color: white;
   background-color:  #80618c;;
-  border: 2px solid palevioletred;
+  border: 2px solid #80618c;
   border-radius: 7px;
   font-size: 16px;
   padding: 10px 14px;
@@ -46,9 +46,9 @@
 }
 .resumeBtn:hover {
   border: none;
-  color: #dd9a05;
-  background-color:white;
-  border: 2px solid #dd9a05;
+  color: #80618c;
+  background-color:rgb(231, 221, 221);
+  border: 2px solid #80618c;
   cursor: pointer;
 }
 .profileContainer {
@@ -69,7 +69,7 @@
     width: 250px;
   }
   .homeContainer {
-    /* background-color: blue; */
+  
     grid-template-columns: 65% 35%;
   }
   .headingContainer {
@@ -112,8 +112,8 @@
     border: 2px solid black;
   }
   .resumeBtn:hover {
-    background-color: white;
-    border: 2px solid #bc4123;
+    background-color:rgb(231, 221, 221);;
+    border: 2px solid #80618c;
     color: black;
   }
 }
@@ -125,7 +125,7 @@
     width: auto;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    background-color: #80618c;
+    background-color: white;
   }
   .headingContainer {
     margin: auto;
@@ -153,14 +153,14 @@
     display: block;
     margin: auto;
 
-    background-color: #ffa500;
-    border: 2px solid #ffa500;
+    background-color:  #80618c;;
+    border: 2px solid  #80618c;;
   }
 
   .resumeBtn:hover {
     background-color: #80618c;
-    border: 2px solid #ffa500;
-    color: #ffa500;
+    border: 2px solid  #80618c;
+    color: #80618c;
   }
   .profilePic {
     width: 180px;

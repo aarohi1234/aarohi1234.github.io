@@ -102,7 +102,7 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   #teck {
-    background-color: #800000;
+    background-color:white;
   }
   .iconsContainer {
     /* background-color: purple; */
@@ -113,7 +113,7 @@
     padding-top: 0px;
   }
   .box {
-    background-color: #a52a2a;
+    background-color: #80618c;;
   }
   .box:hover {
     background-color: #882673;

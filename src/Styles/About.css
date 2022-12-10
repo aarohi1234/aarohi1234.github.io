@@ -1,7 +1,7 @@
 .mainContainer {
   height: 550px;
   width: auto;
-  border: 0px solid blue;
+
   background-color: black;
   padding: 50px 50px 30px 50px;
 }
@@ -62,7 +62,7 @@
   }
   .aboutContainer {
     height: auto;
-    border: 0px solid teal;
+  
     padding-left: 10px;
     width: 95%;
   }
@@ -93,7 +93,7 @@
   }
   .aboutContainer {
     display: block;
-    border: 0px solid blue;
+   
     margin: auto;
     padding: 0px;
     width: 80%;
@@ -102,7 +102,7 @@
     display: none;
   }
   .paraContainer {
-    border: 0px solid teal;
+
     width: auto;
     margin: auto;
   }
@@ -111,7 +111,7 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .mainContainer {
-    background-color: #80618c;
+    background-color: black;
   }
   .line {
     border-color: orange;

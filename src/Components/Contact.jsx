@@ -102,6 +102,7 @@ export default function Contact() {
         </div>
         <div className="commonCBox">
           <AiOutlineWhatsApp className="iconss" />
+        
           <p>6299754449</p>
         </div>
       </div>

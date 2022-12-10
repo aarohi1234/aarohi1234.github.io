@@ -37,7 +37,7 @@
   height: auto;
   width: auto;
   margin: auto;
-  border: 0px solid blue;
+
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -47,9 +47,9 @@
 }
 @media screen and (max-width: 1024px) {
   .graph {
-    /* width: 100px; */
+ 
     width: 70%;
-    border: 0px solid blue;
+  
   }
   .graphPic {
     width: 100%;
@@ -61,7 +61,7 @@
   }
   .iconsContainer {
     width: 85%;
-    /* background-color: purple; */
+ 
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
   }
@@ -73,9 +73,7 @@
     margin-bottom: 15px;
     border-color: black;
   }
-  .graph {
-    border: 0px solid red;
-  }
+ 
   .graphPic {
     width: 100%;
   }
@@ -96,7 +94,7 @@
     padding-right: 15px;
   }
   .line {
-    border: 2px solid #dd9a05;
+    border: 2px solid #80618c;
   }
   .graph {
     width: 100%;
