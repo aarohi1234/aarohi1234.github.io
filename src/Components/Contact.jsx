@@ -27,7 +27,7 @@ export default function Contact() {
           onSubmit={handleSubmit}
           name="contact"
           method="POST"
-          action="https://getform.io/f/e427252e-2c4c-45ba-a1f4-b1a3c9879201"
+          action="https://getform.io/f/6a69dcb2-4762-478f-8b5d-ab7930c3baf3"
           className="Form"
         >
           <input
