@@ -10,12 +10,15 @@ export default function Projects() {
   const [showP2, setShowP2] = useState(false);
   const projects = [
     {
-      image: kfc,
-      name: "KFC clone",
-      desc: " A clone of KFC US website, built with JavaScript, HTML5, CSS. User can signup, login, explore the menu, add items to the cart and buy them.",
-      techStack: "HTML | CSS | Javascript",
-      github: `https://github.com/aarohi1234/KFC-clone`,
-      demo: `https://venerable-sprite-c3ed8d.netlify.app/homepage`
+      image: tripoto,
+      name: "Tripoto Clone",
+      desc: "Tripoto is the best travel planner app India, as it lets you discover itineraries, reviews & travel stories by real travellers",
+      techStack: "React-Redux,Node,Express and Mongodb",
+      github: `https://github.com/aarohi1234/Tripoto-clone`,
+      demo: `https://chic-syrniki-568fa1.netlify.app/`
+
+
+
     },
     {
       image: cronometer,
@@ -26,17 +29,36 @@ export default function Projects() {
       demo: `https://aarohi1234.github.io/cronometer-web-clone/`
     },
     {
+     
+      image: kfc,
+      name: "KFC clone",
+      desc: " A clone of KFC US website, built with JavaScript, HTML5, CSS. User can signup, login, explore the menu, add items to the cart and buy them.",
+      techStack: "HTML | CSS | Javascript",
+      github: `https://github.com/aarohi1234/KFC-clone`,
+      demo: `https://venerable-sprite-c3ed8d.netlify.app/homepage`
+    },
+  ];
+  const projects2 = [
+    {
+
       image: tripoto,
       name: "Tripoto Clone",
       desc: "Tripoto is the best travel planner app India, as it lets you discover itineraries, reviews & travel stories by real travellers",
       techStack: "HTML, CSS, JavaScript, DOM Api",
       github: `https://github.com/aarohi1234/glistening-rock-2573`,
       demo: `https://630b2882801d6f1f698c876e--taupe-klepon-f0f1db.netlify.app/index.html`
+
+
+
+
+
+
+
+      
+      
     },
+    
   ];
-  // const projects2 = [
-  //  
-  //];
 
   return (
     <div id="projects" className="pro">
@@ -78,7 +100,7 @@ export default function Projects() {
         </div>
       ))}
       <div>
-        {/* {showP2 &&
+        {showP2 &&
           projects2.map((item) => (
             <div key={item.name} className="commonContainer">
               <img className="commonPic" src={item.image} alt={item.name} />
@@ -113,7 +135,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          ))} */}
+          ))}
         <button
           className={`live atag`}
           style={{

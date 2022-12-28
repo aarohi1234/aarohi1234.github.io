@@ -58,8 +58,12 @@ export default function Contact() {
         </form>
       </div>
 
-      <div className="cBox">
-        <div className="commonCBox">
+      <div className="cBox" style={{
+        border:"1px solid red"
+      }}>
+        <div className="commonCBox"style={{   
+        textAlign:"center"
+      }}>
           <a
             href="https://www.linkedin.com/in/nidhi1234/"
             target="_blank"
@@ -78,7 +82,9 @@ export default function Contact() {
             </a>
           </p>
         </div>
-        <div className="commonCBox">
+        <div className="commonCBox" style={{   
+        textAlign:"center"
+      }} >
           <a
             href="https://github.com/aarohi1234"
             target="_blank"
@@ -96,11 +102,15 @@ export default function Contact() {
             </a>
           </p>
         </div>
-        <div className="commonCBox">
+        <div className="commonCBox" style={{   
+        textAlign:"center"
+      }}>
           <AiOutlineMail className="iconss" />
           <p>nidhiaarohi123@gmail.com</p>
         </div>
-        <div className="commonCBox">
+        <div className="commonCBox" style={{   
+        textAlign:"center"
+      }}>
           <AiOutlineWhatsApp className="iconss" />
         
           <p>6299754449</p>
