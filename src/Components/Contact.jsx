@@ -59,7 +59,7 @@ export default function Contact() {
       </div>
 
       <div className="cBox" style={{
-        border:"1px solid red"
+        border:"0px solid red"
       }}>
         <div className="commonCBox"style={{   
         textAlign:"center"

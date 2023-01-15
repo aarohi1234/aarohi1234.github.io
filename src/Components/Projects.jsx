@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Projects.css";
 import kfc from "../Images/kfc.png";
 import cronometer from "../Images/cronometer.png";
+import stayfit from "../Images/stayfit.png";
 
 import tripoto from "../Images/tripoto.png";
 
@@ -20,6 +21,18 @@ export default function Projects() {
 
 
     },
+ 
+    {
+     
+      image: stayfit,
+      name: "Myfitnesspal clone",
+      desc: "  Myfitnesspal is a smartphone app and website that tracks diet and exercise.",
+     
+      techStack: "React-Redux,Node,Express and Mongodb",
+      github: `https://github.com/aarohi1234/stayFit.com`,
+      demo: `https://stayfits.vercel.app/`
+    },
+
     {
       image: cronometer,
       name: "Cronometer  Clone",
@@ -27,15 +40,6 @@ export default function Projects() {
       techStack: "HTML | CSS | Javascript",
       github: `https://github.com/aarohi1234/cronometer-web-clone`,
       demo: `https://aarohi1234.github.io/cronometer-web-clone/`
-    },
-    {
-     
-      image: kfc,
-      name: "KFC clone",
-      desc: " A clone of KFC US website, built with JavaScript, HTML5, CSS. User can signup, login, explore the menu, add items to the cart and buy them.",
-      techStack: "HTML | CSS | Javascript",
-      github: `https://github.com/aarohi1234/KFC-clone`,
-      demo: `https://venerable-sprite-c3ed8d.netlify.app/homepage`
     },
   ];
   const projects2 = [
@@ -46,17 +50,16 @@ export default function Projects() {
       desc: "Tripoto is the best travel planner app India, as it lets you discover itineraries, reviews & travel stories by real travellers",
       techStack: "HTML, CSS, JavaScript, DOM Api",
       github: `https://github.com/aarohi1234/glistening-rock-2573`,
-      demo: `https://630b2882801d6f1f698c876e--taupe-klepon-f0f1db.netlify.app/index.html`
-
-
-
-
-
-
-
-      
-      
+      demo: `https://630b2882801d6f1f698c876e--taupe-klepon-f0f1db.netlify.app/index.html` 
     },
+    {
+      image: kfc,
+      name: "KFC clone",
+      desc: " A clone of KFC US website, built with JavaScript, HTML5, CSS. User can signup, login, explore the menu, add items to the cart and buy them.",
+      techStack: "HTML | CSS | Javascript",
+      github: `https://github.com/aarohi1234/KFC-clone`,
+      demo: `https://venerable-sprite-c3ed8d.netlify.app/homepage`
+    }
     
   ];
 

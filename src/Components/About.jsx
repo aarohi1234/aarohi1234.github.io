@@ -15,7 +15,7 @@ I am a Full Stack Web Developer and Problem Solver, passionate about building di
 I am Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer. .
           </p>
           <p className="para">
-            Well organised person, problem solver with high attention to details
+            Well organized person, problem solver with high attention to details
             and ability to exploring and implementing new things,
           </p>
           <p className="para">
