@@ -60,7 +60,11 @@ export default function Navbar() {
         <li className="tech-t">
           <a
             style={{ textDecoration: "none", color: "white" }}
+<<<<<<< HEAD
             href="https://drive.google.com/file/d/17iJGwA9bhwfErq10WWT-hTc4bQJyGd93/view?usp=share_link"
+=======
+            href="https://drive.google.com/file/d/17iJGwA9bhwfErq10WWT-hTc4bQJyGd93/view"
+>>>>>>> 127c7158e0fdf44033dd75903a612b3140079be1
             target="_blank"
             rel="noreferrer"
           >
