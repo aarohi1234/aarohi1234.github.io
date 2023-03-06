@@ -5,13 +5,13 @@ import { BiDownload } from "react-icons/bi";
 import "../Styles/Home.css";
 export default function Home() {
   const onButtonClick = () => {
-    fetch("Nidhi-Kumari-resume.pdf").then((response) => {
+    fetch("Nidhi-Kumari-Resume.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
 
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Nidhi-Kumari-resume.pdf";
+        alink.download = "Nidhi-Kumari-Resume.pdf";
         alink.click();
       });
     });
