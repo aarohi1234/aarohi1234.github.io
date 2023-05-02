@@ -77,6 +77,7 @@ export default function Contact() {
               href="https://www.linkedin.com/in/nidhi1234/"
               target="_blank"
               rel="noreferrer"
+              id="contact-linkedin"
             >
               LinkedIn <TbExternalLink />
             </a>
@@ -97,6 +98,7 @@ export default function Contact() {
               href="https://github.com/aarohi1234"
               target="_blank"
               rel="noreferrer"
+              id="contact-github"
             >
               Github <TbExternalLink />
             </a>
@@ -106,14 +108,20 @@ export default function Contact() {
         textAlign:"center"
       }}>
           <AiOutlineMail className="iconss" />
-          <p>nidhiaarohi123@gmail.com</p>
+          <a  href="mailto:nidhiaarohi123@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            id="contact-email">
+            
+            <p >nidhiaarohi123@gmail.com </p>
+            </a>
         </div>
         <div className="commonCBox" style={{   
         textAlign:"center"
       }}>
           <AiOutlineWhatsApp className="iconss" />
         
-          <p>6299754449</p>
+          <p  id="contact-phone">6299754449</p>
         </div>
       </div>
     </div>

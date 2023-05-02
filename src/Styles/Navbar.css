@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: space-around;
 }
-.tech-t {
+#tech-t1 {
   list-style-type: none;
   padding: 0px 10px 0px 15px;
   color: white;
@@ -38,10 +38,95 @@
   font-weight: 500;
   letter-spacing: 0.5px;
 }
-.tech-t:hover {
+#tech-t1:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+#tech-t2 {
+  list-style-type: none;
+  padding: 0px 10px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.9s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#tech-t2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tech-t3 {
+  list-style-type: none;
+  padding: 0px 10px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.9s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#tech-t3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tech-t4 {
+  list-style-type: none;
+  padding: 0px 10px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.9s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#tech-t4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tech-t5 {
+  list-style-type: none;
+  padding: 0px 10px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.9s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#tech-t5:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tech-t6 {
+  list-style-type: none;
+  padding: 0px 10px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.9s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#tech-t6:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#tech-t7 {
+  list-style-type: none;
+  padding: 0px 10px 0px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.9s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#tech-t7:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .mobile-menu-icon {
   display: none;
 }
@@ -63,7 +148,7 @@
     width: 100%;
     z-index: 2000;
   }
-  .tech-t {
+  #tech-t1 {
     color: white;
     text-align: center;
     padding: 32px;

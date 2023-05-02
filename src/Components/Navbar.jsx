@@ -8,26 +8,26 @@ export default function Navbar() {
   return (
     <div className="nav" id="nav-menu">
       <div>
-        <Link to="hero" spy={true} smooth={true} offset={-40} duration={500}>
+        <Link to="home" spy={true} smooth={true} offset={-40} duration={500}>
           <i>
             <h3 className="logo">Nidhi Kumari </h3>
           </i>
         </Link>
       </div>
       <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
-        <Link to="hero" spy={true} smooth={true} offset={-45} duration={500}>
-          <li onClick={() => setIsMobile(false)} className="tech-t">
+        <Link to="home" spy={true} smooth={true} offset={-45} duration={500}>
+          <li onClick={() => setIsMobile(false)} className="nav-link home" id="tech-t1">
             Home
           </li>
         </Link>
         <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>
-          <li onClick={() => setIsMobile(false)} className="tech-t">
+          <li onClick={() => setIsMobile(false)} className="nav-link about" id="tech-t2">
             About
           </li>
         </Link>
-        <Link to="teck" spy={true} smooth={true} offset={-40} duration={500}>
-          <li onClick={() => setIsMobile(false)} className="tech-t">
-            Tech
+        <Link to="skills" spy={true} smooth={true} offset={-40} duration={500}>
+          <li onClick={() => setIsMobile(false)} className="nav-link skills" id="tech-t3">
+            Skills
           </li>
         </Link>
         <Link
@@ -37,7 +37,7 @@ export default function Navbar() {
           offset={-40}
           duration={500}
         >
-          <li onClick={() => setIsMobile(false)} className="tech-t">
+          <li onClick={() => setIsMobile(false)} id="tech-t4">
             Projects
           </li>
         </Link>
@@ -48,16 +48,16 @@ export default function Navbar() {
           offset={-40}
           duration={700}
         >
-          <li onClick={() => setIsMobile(false)} className="tech-t">
+          <li onClick={() => setIsMobile(false)} id="tech-t5">
             Statistics
           </li>
         </Link>
         <Link to="contact" spy={true} smooth={true} offset={-40} duration={700}>
-          <li onClick={() => setIsMobile(false)} className="tech-t">
+          <li onClick={() => setIsMobile(false)} className="nav-link contact" id="tech-t6">
             Contact
           </li>
         </Link>
-        <li className="tech-t">
+        <li   className="nav-link resume" id="tech-t7">
           <a
             style={{ textDecoration: "none", color: "white" }}
             href="https://drive.google.com/file/d/17iJGwA9bhwfErq10WWT-hTc4bQJyGd93/view"
