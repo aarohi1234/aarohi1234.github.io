@@ -1,4 +1,4 @@
-#teck {
+#skills {
   background-color: white;
   height: auto;
   width: auto;
@@ -76,7 +76,7 @@
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media screen and (max-width: 767px) {
-  #teck {
+  #skills {
     background-color: white;
   }
   .iconsContainer {
@@ -101,7 +101,7 @@
 /* mobile */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-  #teck {
+  #skills {
     background-color:white;
   }
   .iconsContainer {

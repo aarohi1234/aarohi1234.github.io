@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
  
   return (
-    <div className="nav">
+    <div className="nav" id="nav-menu">
       <div>
         <Link to="hero" spy={true} smooth={true} offset={-40} duration={500}>
           <i>

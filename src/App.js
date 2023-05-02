@@ -2,10 +2,11 @@ import "./App.css";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
-import Teck from "./Components/Teck";
+
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Statistics from "./Components/Statistics";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Teck />
+      <Skills />
       <Projects />
       <Statistics />
       <Contact />

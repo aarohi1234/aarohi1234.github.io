@@ -28,9 +28,9 @@ const logos = [
   { i: postman, t: "Postman" },
 ];
 
-export default function Teck() {
+export default function Skills() {
   return (
-    <div id="teck">
+    <div id="skills">
       <h1 className="headingTeck">Skill</h1>
       <hr className="lineTeck" />
       <div className="iconsContainer">

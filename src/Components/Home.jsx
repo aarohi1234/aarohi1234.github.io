@@ -17,7 +17,7 @@ export default function Home() {
     });
   };
   return (
-    <div className="homeContainer" id="hero">
+    <div className="homeContainer" id="home">
       <div className="headingContainer">
         <p>Hey I'm,</p>
         <h2>Nidhi Kumari</h2>
