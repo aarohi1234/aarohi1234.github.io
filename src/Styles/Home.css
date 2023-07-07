@@ -46,8 +46,8 @@
 }
 .resumeBtn:hover {
   border: none;
-  color: #80618c;
-  background-color:rgb(231, 221, 221);
+  color: #f0ebeb;
+  background-color:#191619;
   border: 2px solid #80618c;
   cursor: pointer;
 }
