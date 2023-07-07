@@ -51,7 +51,7 @@
 .projectDetails {
   height: auto;
   width: auto;
-  border: 0px solid  #80618c;;
+  border: 0px solid  #80618c;
   margin: auto;
   margin-top: 10px;
   margin-left: 50px;
@@ -107,7 +107,7 @@
 .live:hover {
   border: none;
   color: black;
-  background-color: paleturquoise;
+  background-color: #80618c;
   border: 1px solid white;
   cursor: pointer;
   /* padding: 11px 15px; */
